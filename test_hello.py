@@ -1,6 +1,6 @@
 # test_hello.py
 
-import hello
+import Hello
 
 def test_hello():
-   assert hello.hello() == 'Hello World'
+   assert Hello.hello() == 'Hello World'
