@@ -3,4 +3,4 @@
 import hello
 
 def test_hello():
-   assert hello.hello() == 'Hello Word'
+   assert hello.hello() == 'Hello World'
