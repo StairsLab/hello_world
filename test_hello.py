@@ -1,7 +1,6 @@
 # test_hello.py
 
-from unittest import TestCase
+import hello
 
-class TryTesting(TestCase):
-    def hello(self):
-        self.assertTrue(True)
+def test_hello():
+   assert hello.hello() == 'Hello Word'
